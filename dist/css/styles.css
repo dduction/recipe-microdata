@@ -1,0 +1,106 @@
+@font-face {
+	font-family: 'Gotham-Book';
+	src: url('../fonts/gotham-book-webfont.eot');
+	src: url('../fonts/gotham-book-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/gotham-book.woff') format('woff'), url('../fonts/gotham-book.ttf') format('truetype'), url('../fonts/gotham-book.svg#gotham-book') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+  font-family: 'Gotham-Book', -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  background: #eaebec;
+}
+
+.ff-blue {
+  background-color: #b8d0dc;
+}
+.ff-transparent {
+  background-color: transparent;
+}
+.has-text-muted {
+  color: #95A5A6;
+}
+.fa {
+  font-size:10px;
+  padding-top:3px;
+  color: #95A5A6;
+}
+.panel-block-item  {
+  display: inline-block;
+  color: #444;
+  padding-right: 10px;
+}
+
+.panel-block-item .tag,.panel-block-item .button  {
+  color: #95A5A6;
+  font-weight: bold;
+}
+
+.panel-block-item.is-right {
+  display: inline-block;
+  color: #95A5A6;
+  font-weight: bold;
+  float: right;
+}
+
+.panel-block-item .likes {
+  padding-right: 25px;
+}
+
+.panel-block-item .likes .fa,
+.panel-block-item .comments .fa
+ {
+  font-size: 15px;
+  margin-top: -2px;
+}
+
+.avatar {
+  border-radius: 42px;
+  margin-right: 10px;
+  height: 42px;
+  width: 42px;
+  padding: 2px;
+  border: 1px solid #dbdbdb;
+}
+
+.timestamp {
+  color: #95A5A6;
+  font-weight: bold;
+}
+
+.nav-item a.is-tab.is-active, a.nav-item.is-tab.is-active {
+    border-bottom: 3px solid #443212;
+    color: #443212;
+    padding-bottom: calc(.5rem - 3px);
+}
+
+.nav-item a.is-tab:hover, a.nav-item.is-tab:hover {
+  border-bottom: 1px solid #443212;
+}
+
+.title {
+  color: #443212;
+}
+
+.ff-name {
+	display: block;
+	font-weight: bold;
+	font-size: 1.2rem;
+	color: #95A5A6;
+}
+
+.ff-ingredients {
+	padding: 10px 0;
+	display: block;
+	font-size: .8rem;
+}
+
+.ff-description {
+	display: block;
+}
+
+.ff-readmore {
+	font-weight: bold;
+	line-height: 2;
+	color: #95A5A6;
+}
